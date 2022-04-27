@@ -1,0 +1,63 @@
+.theme{
+  color: blue;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+.addTheme{
+  background: none;
+  background-color: black;
+  border: none;
+  color: aqua;
+  position: absolute;
+  border-radius: 10px;
+  padding: 10px;
+  top: 0.1rem;
+  left: 1rem;
+}
+.addQuest{
+  background: none;
+  background-color: rgba(0,0,0,0.4);
+  border: none;
+  color: aqua;
+  position: absolute;
+  border-radius: 10px;
+  padding: 10px;
+  top: 2.7rem;
+  left: 1rem;
+}
+.container-fluid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.exit{
+  color: black;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  padding: 10px;
+  top: 1rem;
+  right: 1rem;
+}
+
+/* @media screen and (width:383px){
+  .container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+  }
+  .theme{
+    top:180vh;
+  }
+} */
